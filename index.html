@@ -35,19 +35,16 @@
   <main>
     <!-- hero-section -->
     <section class="py-[100px] bg-gray-50">
-      <div class="container mx-auto flex flex-col items-center gap-6">
+      <div class="w-11/12 mx-auto flex flex-col items-center gap-6">
         <div><img src="./assets/banner.png" alt=""></div>
-        <h1 class="text-center text-color-black font-extrabold text-2xl lg:text-6xl w-3/4">A barn house of this design
-          has a striking
-          appearance</h1>
-        <p class="text-center mt-6 w-4/6 text-color-gray font-medium">With a passion for pushing boundaries and a
-          commitment to client
-          satisfaction,
-          we strive to deliver exceptional results. Our team of skilled architects and designers brings a wealth of
+        <h1 class="text-center text-color-black font-extrabold text-3xl lg:text-6xl w-3/4">Modern house of this design
+          has a stunning appearance</h1>
+        <p class="text-center mt-6 lg:w-4/6 text-color-gray font-medium">Our team of skilled architects and designers
+          brings a wealth of
           experience and creativity to every project, ensuring that each space is tailored to the unique needs and
           aspirations of our clients.</p>
         <button
-          class="py-2 px-7 btn rounded-full bg-color-l-green border-none text-xl text-color-black font-extrabold flex items-center">
+          class="py-2 px-7 btn rounded-full bg-color-l-green border-none text-xl text-color-black font-extrabold flex items-center w-full md:w-fit">
           View Details<i
             class="bi bi-arrow-up-right inline-block w-8 h-8 leading-8 bg-color-green text-color-black rounded-full"></i>
         </button>
@@ -55,22 +52,26 @@
     </section>
 
     <!-- about section -->
-    <section class="bg-gray-100 py-[100px]"
-      style="background-image: url(./assets/Vector.png); background-repeat: no-repeat; background-size: auto; background-position: 3% 2%;">
-      <div class="container mx-auto">
+    <section class="bg-gray-100 py-[100px]">
+      <div class="w-11/12 mx-auto">
+        <div class="hidden lg:inline-block translate-y-[-40%]"><img src="./assets/Vector.png" alt=""></div>
         <div class="flex flex-col md:flex-row gap-6">
           <div class="flex-1">
-            <div class="bg-white inline-block px-4 py-2 rounded-full font-bold text-color-black">
-              <i class="bi bi-arrow-right mr-2"></i><span>About Us</span>
+            <div class="text-center lg:text-start">
+              <div class="bg-white inline-block px-4 py-2 rounded-full font-bold text-color-black">
+                <i class="bi bi-arrow-right mr-2"></i><span>About Us</span>
+              </div>
             </div>
-            <h2 class="text-color-black font-extrabold text-2xl md:text-4xl mt-5">We design thoughful, and liveable
+            <h2 class="text-center lg:text-start text-color-black font-extrabold text-2xl md:text-4xl mt-5">We design
+              thoughful, and liveable
               spaces</h2>
-            <p class="font-medium text-color-gray my-6">The barn house captivates with its blend of rustic charm
+            <p class="text-center lg:text-start font-medium text-color-gray my-6">The barn house captivates with its
+              blend of rustic charm
               and modern sophistication, featuring weathered wood, sleek metal accents.</p>
             <!-- boxes -->
-            <div class="flex flex-col md:flex-row lg:flex-col gap-3">
-              <div class="box items-center p-6 rounded-xl bg-white flex gap-4">
-                <div class="w-1/5">
+            <div class="flex flex-col md:flex-row lg:flex-col gap-4">
+              <div class="box items-center p-6 rounded-xl bg-white flex gap-5">
+                <div class="lg:w-1/5 w-2/5">
                   <img class="" src="./assets/commercial.png" alt="">
                 </div>
                 <div>
@@ -81,14 +82,13 @@
                 </div>
               </div>
               <div class="box items-center p-6 rounded-xl bg-white flex gap-4">
-                <div class="w-1/5">
+                <div class="lg:w-1/5 w-2/5">
                   <img class="" src="./assets/residential.png" alt="">
                 </div>
                 <div>
                   <h3 class="text-xl font-extrabold text-color-black">Residential</h3>
                   <p class="mt-2 text-color-l-gray font-medium">From cozy cottages to sprawling mansions, we specialize
-                    in creating
-                    beautiful and functional homes.</p>
+                    in creating beautiful and functional homes.</p>
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@
 
     <!-- process-section -->
     <section class="bg-gray-100 pb-[100px]">
-      <div class="container mx-auto">
+      <div class="w-11/12 mx-auto">
         <div class="text-center">
           <div class="bg-white inline-block px-4 py-2 rounded-full font-bold text-color-black">
             <i class="bi bi-arrow-right mr-2"></i><span>How We Works</span>
@@ -142,7 +142,7 @@
 
     <!-- portfolio section -->
     <section class="py-[100px]">
-      <div class="container mx-auto">
+      <div class="w-11/12 mx-auto">
         <div class="text-center">
           <div class="bg-color-l-green inline-block px-4 py-2 rounded-full font-bold text-color-black">
             <i class="bi bi-arrow-right mr-2"></i><span>Explore Our Latest Works</span>
@@ -199,9 +199,8 @@
 
     <!-- FAQ section -->
     <section class=" pb-[100px]">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row gap-6 items-center">
-          
           <!-- accordions -->
           <div class="flex flex-col gap-4 w-full md:w-1/2">
             <div>
@@ -209,34 +208,42 @@
                 <i class="bi bi-arrow-right mr-2"></i><span>Any Queries ?</span>
               </div>
               <h2 class="text-color-black font-extrabold text-4xl mt-5">Frequently Asked Questions</h2>
-              <p class="font-medium text-color-gray my-6">Do let us know if you have any queries about our work strategies, budget, work plans and others. We will try to get to your answers as early as possible.</p>
+              <p class="font-medium text-color-gray my-6">Do let us know if you have any queries about our work
+                strategies, budget, work plans and others. We will try to get to your answers as early as possible.</p>
             </div>
             <div class="collapse collapse-plus bg-gray-50 rounded-lg">
               <input type="radio" name="my-accordion-3" checked="checked" />
-              <div class="collapse-title text-lg text-color-black font-extrabold">How long does a typical project take?</div>
+              <div class="collapse-title text-lg text-color-black font-extrabold">How long does a typical project take?
+              </div>
               <div class="collapse-content">
-                <p class="font-medium text-color-gray">The duration of a project varies depending on its complexity and scale. We'll provide a detailed timeline during the initial consultation.</p>
+                <p class="font-medium text-color-gray">The duration of a project varies depending on its complexity and
+                  scale. We'll provide a detailed timeline during the initial consultation.</p>
               </div>
             </div>
             <div class="collapse collapse-plus bg-gray-50 rounded-lg">
               <input type="radio" name="my-accordion-3" />
               <div class="collapse-title text-lg text-color-black font-extrabold">What is your design process?</div>
               <div class="collapse-content">
-                <p class="font-medium text-color-gray">Our design process involves initial consultation, conceptual design development, construction documents, and project management.</p>
+                <p class="font-medium text-color-gray">Our design process involves initial consultation, conceptual
+                  design development, construction documents, and project management.</p>
               </div>
             </div>
             <div class="collapse collapse-plus bg-gray-50 rounded-lg">
               <input type="radio" name="my-accordion-3" />
-              <div class="collapse-title text-lg text-color-black font-extrabold">Can I see examples of your previous work?</div>
+              <div class="collapse-title text-lg text-color-black font-extrabold">Can I see examples of your previous
+                work?</div>
               <div class="collapse-content">
-                <p class="font-medium text-color-gray">Absolutely! We have a portfolio of projects showcasing our diverse range of work. You can view our portfolio on our website or request a physical portfolio.</p>
+                <p class="font-medium text-color-gray">Absolutely! We have a portfolio of projects showcasing our
+                  diverse range of work. You can view our portfolio on our website or request a physical portfolio.</p>
               </div>
             </div>
             <div class="collapse collapse-plus bg-gray-50 rounded-lg">
               <input type="radio" name="my-accordion-4" />
-              <div class="collapse-title text-lg text-color-black font-extrabold">Do you supervise ongoing projects?</div>
+              <div class="collapse-title text-lg text-color-black font-extrabold">Do you supervise ongoing projects?
+              </div>
               <div class="collapse-content">
-                <p class="font-medium text-color-gray">Sorry, We dont't have any division of project supervision. We are planning to launch that too in future.</p>
+                <p class="font-medium text-color-gray">Sorry, We dont't have any division of project supervision. We are
+                  planning to launch that too in future.</p>
               </div>
             </div>
           </div>
@@ -250,7 +257,7 @@
     <section class="">
       <div class="bg-cover bg-no-repeat lg:py-24 md:py-16 py-6 px-6 border-white border-4"
         style="background-image: url(./assets/bg.jpg);">
-        <div class="container mx-auto">
+        <div class="w-11/12 mx-auto">
           <div class="text-center">
             <div class="bg-color-l-green inline-block px-4 py-2 rounded-full font-bold text-p-color">
               <i class="bi bi-arrow-right mr-2"></i><span>Let’s Connect</span>
@@ -269,18 +276,41 @@
             <input class="md:h-14 h-12 rounded-full pl-5" type="email" placeholder="Email Address*" />
             <textarea class="lg:col-span-2 md:col-span-2 p-5 rounded-3xl h-60" name=""
               placeholder="Write your message here" id=""></textarea>
-            <button class="lg:col-span-2 md:col-span-2 py-2 px-7 btn rounded-full bg-color-green border-none text-xl text-color-black font-extrabold flex items-center">
-            Send Mail<i class="bi bi-arrow-up-right inline-block w-8 h-8 leading-8 bg-black text-white rounded-full"></i>
-          </button>  
+            <button
+              class="lg:col-span-2 md:col-span-2 py-2 px-7 btn rounded-full bg-color-green border-none text-xl text-color-black font-extrabold flex items-center">
+              Send Mail<i
+                class="bi bi-arrow-up-right inline-block w-8 h-8 leading-8 bg-black text-white rounded-full"></i>
+            </button>
           </div>
-          
-          
         </div>
       </div>
     </section>
 
   </main>
-  <footer></footer>
+  <footer class="footer footer-center bg-color-black-bg text-color-gray rounded p-10">
+    <div class="w-11/12 mx-auto">
+      <div class="logo flex gap-2">
+        <i
+          class="text-xl bi bi-arrow-up-right inline-block w-8 h-8 leading-8 bg-color-green text-color-black rounded-full"></i>
+        <h1 class="text-3xl font-extrabold text-white">Rinterio</h1>
+      </div>
+      <p class="text-color-gray font-medium w-4/5">
+        With a passion for pushing boundaries and a commitment to client satisfaction, we strive to deliver exceptional
+        results. Our team of skilled architects and designers brings a wealth of experience and creativity to every
+        project, ensuring that each space is tailored to the unique needs and aspirations of our clients.
+      </p>
+    </div>
+    <nav class="grid md:grid-flow-col grid-row lg:gap-20 gap-5">
+      <a class="link link-hover text-white">Home</a>
+      <a class="link link-hover text-white">Services</a>
+      <a class="link link-hover text-white">Portfolio</a>
+      <a class="link link-hover text-white">Blog</a>
+      <a class="link link-hover text-white">Contact Us</a>
+    </nav>
+    <button class="py-2 px-7 btn rounded-full bg-color-green border-none text-xl font-extrabold flex items-center">
+      Book Consult<i class="bi bi-arrow-up-right inline-block w-8 h-8 leading-8 bg-black text-white rounded-full"></i>
+    </button>
+  </footer>
 </body>
 
 </html>
