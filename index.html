@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -30,14 +29,59 @@
   </script>
 </head>
 
-<body>
-  <header></header>
+<body style="font-family: 'Manrope', sans-serif;">
+  <header>
+    <nav class="bg-gray-50">
+      <div class="w-11/12 mx-auto">
+        <div class="navbar flex flex-row justify-between">
+          <div class="">
+            <a class="text-4xl font-extrabold text-color-black">Rinterio<i
+                class="ml-2 text-center align-middle bi bi-arrow-up-right text-sm inline-block w-8 h-8 leading-8 bg-color-green rounded-full"></i></a>
+          </div>
+          <div class="hidden md:block">
+            <ul class="flex justify-between gap-5">
+              <li><a class="hover:font-bold">Home</a></li>
+              <li><a class="hover:font-bold">About</a></li>
+              <li><a class="hover:font-bold">Portfolio</a></li>
+              <li><a class="hover:font-bold">Blog</a></li>
+              <li><a class="hover:font-bold">Contact</a></li>
+            </ul>
+          </div>
+          <div class="md:flex md:justify-between md:gap-4 hidden">
+            <button class=""><i
+                class="bi bi-search inline-block w-8 h-8 leading-8 bg-white text-[#737373] rounded-full"></i></button>
+            <button class=""><i
+                class="bi bi-cart2 inline-block w-8 h-8 leading-8 bg-white text-[#737373] rounded-full"></i></button>
+            <button class="py-2 px-5 btn rounded-full bg-[#abef5f] border-none text-xl font-bold flex items-center">
+              Book Consult<i
+                class="bi bi-arrow-up-right text-xs inline-block w-6 h-6 leading-6 bg-black text-white rounded-full"></i>
+            </button>
+          </div>
+          <div class="justify-end md:hidden">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+                </svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li><a>Homepage</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>About</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
   <main>
     <!-- hero-section -->
     <section class="py-[100px] bg-gray-50">
       <div class="w-11/12 mx-auto flex flex-col items-center gap-6">
         <div><img src="./assets/banner.png" alt=""></div>
-        <h1 class="text-center text-color-black font-extrabold text-3xl lg:text-6xl w-3/4">Modern house of this design
+        <h1 class="text-center text-color-black font-extrabold text-3xl lg:text-6xl w-3/4">Modern design of this house
           has a stunning appearance</h1>
         <p class="text-center mt-6 lg:w-4/6 text-color-gray font-medium">Our team of skilled architects and designers
           brings a wealth of
@@ -307,7 +351,8 @@
       <a class="link link-hover text-white">Blog</a>
       <a class="link link-hover text-white">Contact Us</a>
     </nav>
-    <button class="py-2 px-7 btn rounded-full bg-color-green border-none text-xl font-extrabold flex items-center w-[90%] md:w-fit">
+    <button
+      class="py-2 px-7 btn rounded-full bg-color-green border-none text-xl font-extrabold flex items-center w-[90%] md:w-fit">
       Book Consult<i class="bi bi-arrow-up-right inline-block w-8 h-8 leading-8 bg-black text-white rounded-full"></i>
     </button>
   </footer>
